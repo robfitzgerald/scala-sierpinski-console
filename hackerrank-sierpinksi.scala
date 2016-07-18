@@ -4,12 +4,12 @@ object Solution {
   
 	def drawAtDepth(n: Int) {
 		// original problem bounds
-		// val yBounds = 32
-		// val xBounds = 63
+		val yBounds = 32
+		val xBounds = 63
 		
 		// larger result
-		val yBounds = 256
-		val xBounds = 511	
+		// val yBounds = 256
+		// val xBounds = 511	
 
 		val trianglePoints = drawTriangles(0, n, Point(0,0,""), Point(xBounds,yBounds,""))
 		val background = drawBackground(xBounds,yBounds).diff(trianglePoints).map(p=>Point(p.x,p.y,"_"))
