@@ -6,9 +6,7 @@ developed for the Hackerrank platform.
 
 ## install:
 
-run sbt in repo directory. type "run" and enter. once it builds, type an integer and press enter.
-
-you should see something like this:
+install [scala](http://www.scala-lang.org/). run [sbt](http://www.scala-sbt.org/) in repo directory. type "run" and enter. you should see something like this:
 
 ```
 $ sbt
@@ -16,7 +14,6 @@ $ sbt
 > run
 [info] Compiling 1 Scala source to /path/to/repo/target/scala-2.10/classes...
 [info] Running Solution 
-1
 _______________________________1_______________________________
 ______________________________111______________________________
 _____________________________11111_____________________________
@@ -50,4 +47,14 @@ __111111111111111111111111111_____111111111111111111111111111__
 _11111111111111111111111111111___11111111111111111111111111111_
 1111111111111111111111111111111_1111111111111111111111111111111
 [success] Total time: 4 s, completed Jul 17, 2016 8:10:38 PM
+```
+
+## usage
+
+```
+$ run <depth> <height>
+
+<depth> (optional): recursive depth, or, the x value in the expression 3^x, which sets how many triangles you want.
+<height> (optional): number of rows to print the image on the console. powers of 2 are ideal.
+by default, the program runs with depth=1 and height=32.
 ```
