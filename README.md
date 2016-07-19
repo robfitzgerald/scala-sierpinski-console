@@ -2,7 +2,7 @@
 
 a command line application to print Sierpinski Triangles to the console.
 
-developed for the Hackerrank platform.
+developed to solve a problem on [Hackerrank](https://www.hackerrank.com/challenges/functions-and-fractals-sierpinski-triangles).
 
 ## install:
 
