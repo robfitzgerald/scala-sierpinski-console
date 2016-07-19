@@ -13,7 +13,7 @@ $ sbt
 [info] Set current project to functional-recursive-sierpinski (in build file:/path/to/repo/)
 > run
 [info] Compiling 1 Scala source to /path/to/repo/target/scala-2.10/classes...
-[info] Running Solution 
+[info] Running Sierpinski 
 _______________________________1_______________________________
 ______________________________111______________________________
 _____________________________11111_____________________________
@@ -46,7 +46,7 @@ ___1111111111111111111111111_______1111111111111111111111111___
 __111111111111111111111111111_____111111111111111111111111111__
 _11111111111111111111111111111___11111111111111111111111111111_
 1111111111111111111111111111111_1111111111111111111111111111111
-[success] Total time: 4 s, completed Jul 17, 2016 8:10:38 PM
+[success] Total time: 0 s, completed Jul 18, 2016 9:57:54 PM
 ```
 
 ## usage
